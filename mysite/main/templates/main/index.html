@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Обо мне</h1>
+        <p>Я Цветков Иван Романович. Бакалавр политологии профиля: Российская политика, основная тема исследований местное самоупралвение.</p>
+        <p>Закончил ТулГУ в 2023 году </p>
+        <p>Являюсь Python-разработчиком окончив курс переквалификации ТулГУ в 2023 году</p>
+        <a href="{% url 'news_home' %}"><li><button class="btn btn-warning"><i class="fa fa-briefcase"></i> Мое портфолио</li></a>
+
+
+    </div>
+{% endblock %}
